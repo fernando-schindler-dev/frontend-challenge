@@ -9,6 +9,11 @@
 button {
   border: none;
 }
+img,
+svg {
+  display: block;
+  min-width: 100%;
+}
 
 .container {
   display: grid;
