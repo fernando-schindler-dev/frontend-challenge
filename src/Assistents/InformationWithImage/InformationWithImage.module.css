@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.image {
+  margin-right: 1rem;
+  fill: #424242;
+}
+.image svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.informations p:last-child {
+  margin-top: 0.125rem;
+  font-size: 0.875rem;
+}

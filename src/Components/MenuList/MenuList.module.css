@@ -21,15 +21,16 @@
   background: #fff;
   box-shadow: 0 -7.5px 0 #fff, 0 7.5px 0 #fff;
 }
-a {
+.menuList a {
+  display: block;
   padding: 1rem;
 }
-a:hover svg,
+.menuList a:hover svg,
 .active svg {
   fill: #1976d2;
   stroke: #1976d2;
 }
-svg {
+.menuList svg {
   fill: #737373;
   stroke: #737373;
   stroke-width: 10;
