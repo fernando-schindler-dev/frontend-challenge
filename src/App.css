@@ -23,6 +23,7 @@ svg {
 .content {
   display: grid;
   grid: repeat(3, auto) / repeat(2, 1fr) 2fr;
+  align-content: start;
   gap: 0.9375rem;
   margin: 1.25rem 0.9375rem;
 }
