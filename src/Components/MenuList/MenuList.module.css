@@ -1,0 +1,39 @@
+.container {
+  grid-row: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  box-shadow: 2px 2px 7px #dadada;
+}
+.menu {
+  cursor: pointer;
+  min-height: 4.375rem;
+  margin-bottom: 0.5rem;
+  padding: 1.3125rem;
+  background: #1976d2;
+}
+.menu .line {
+  display: block;
+  width: 1.75rem;
+  height: 0.1875rem;
+  border-radius: 3rem;
+  background: #fff;
+  box-shadow: 0 -7.5px 0 #fff, 0 7.5px 0 #fff;
+}
+.menuList a {
+  display: block;
+  padding: 1rem;
+}
+.menuList a:hover svg,
+.active svg {
+  fill: #1976d2;
+  stroke: #1976d2;
+}
+.menuList svg {
+  fill: #737373;
+  stroke: #737373;
+  stroke-width: 10;
+  width: 1.125rem;
+  height: 1.125rem;
+}

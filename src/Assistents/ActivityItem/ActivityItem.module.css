@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin: 1.25rem 1.25rem 0rem 1.625rem;
+}
+
+.container > svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  margin: 0 1rem;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.name,
+.date {
+  margin-top: 0.125rem;
+  font-size: 0.875rem;
+  color: #424242;
+}

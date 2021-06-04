@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import MenuBar from './Components/MenuBar/MenuBar';
+import MenuList from './Components/MenuList/MenuList';
+import GeneralInformation from './Components/GeneralInformation/GeneralInformation';
+import Local from './Components/Local/Local';
+import Activities from './Components/Activities/Activities';
+import Opportunities from './Components/Opportunities/Opportunities';
+import CreditLimit from './Components/CreditLimit/CreditLimit';
+import Sales from './Components/Sales/Sales';
+import FinancialBonds from './Components/FinancialBonds/FinancialBonds';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <MenuBar />
+      <MenuList />
+      <div className="content">
+        <GeneralInformation />
+        <Local />
+        <Activities />
+        <Opportunities />
+        <CreditLimit />
+        <Sales />
+        <FinancialBonds />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.total,
+.available {
+  margin: 1rem 0;
+  color: #424242;
+}
+.total p:first-child,
+.available p:first-child {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.total p:first-child {
+  color: #1a77d2;
+}
+.available p:first-child {
+  color: #2e7d32;
+}
