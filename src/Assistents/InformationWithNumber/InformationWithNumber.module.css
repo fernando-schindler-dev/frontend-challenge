@@ -1,25 +1,56 @@
-.container {
+.containerWithComplement {
   display: flex;
   align-items: flex-start;
   margin: 1rem 0;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.container .main {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.container .number p {
+  margin-top: 0.3125rem;
+  font-size: 1.125rem;
+}
+
 .number {
-  margin-right: 0.75rem;
-  padding: 0.125rem 0.75rem;
-  border-radius: 5px;
+  display: flex;
+  position: relative;
+}
+.number p {
+  min-width: 2.1875rem;
+  min-height: 1.8375rem;
+  padding: 0.125rem 0.25rem;
   font-size: 1.625rem;
+  text-align: center;
   color: #fff;
+  z-index: 20;
+}
+.number span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 2.1875rem;
+  height: 2.125rem;
+  border-radius: 5px;
+  background: inherit;
+  z-index: 10;
 }
 
 .informations {
+  padding: 0 0.75rem;
   color: #424242;
 }
-.informations p:first-child {
+.main {
   font-size: 1.125rem;
   font-weight: bold;
 }
-.informations p:last-child {
+.complement {
   margin-top: 0.25rem;
   font-size: 0.875rem;
 }

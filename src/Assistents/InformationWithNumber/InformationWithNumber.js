@@ -1,17 +1,24 @@
 import React from 'react';
 import styles from './InformationWithNumber.module.css';
 
-const InformationWithNumber = (props) => (
-  <div className={styles.container}>
-    <div className={styles.number} style={{ background: props.color }}>
-      {props.number}
-    </div>
+const InformationWithNumber = ({ color, number, main, complement }) => {
+  const resultContainer = complement
+    ? styles.containerWithComplement
+    : styles.container;
 
-    <div className={styles.informations}>
-      <p>{props.main}</p>
-      <p>{props.complement}</p>
+  return (
+    <div className={resultContainer}>
+      <div className={styles.number}>
+        <span style={{ background: color }}></span>
+        <p>{number}</p>
+      </div>
+
+      <div className={styles.informations}>
+        <p className={styles.main}>{main}</p>
+        {complement && <p className={styles.complement}>{complement}</p>}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default InformationWithNumber;

@@ -1,3 +1,51 @@
 .container {
   grid-row: span 3;
+  padding-bottom: 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem 2rem 0 0;
+  padding: 0 0 0 0.75rem;
+  border: 1px solid #424242;
+}
+.search svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  margin-right: 0.75rem;
+}
+.search input {
+  width: 100%;
+  height: 1.875rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.activiesMenu {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+.activiesMenu > div {
+  margin-right: 2.1875rem;
+}
+.activiesMenu > div:first-child {
+  margin-right: calc(2.1875rem + 0.75rem);
+  border-radius: 5px;
+  background: #e0e0e0;
+}
+
+.activiesList {
+  position: relative;
+}
+.activiesList::before {
+  content: '';
+  position: absolute;
+  left: calc(0.875rem - 1px);
+  display: block;
+  width: 2px;
+  height: calc(100% - 1rem);
+  margin-top: 1rem;
+  background: #b8b8b8;
 }
