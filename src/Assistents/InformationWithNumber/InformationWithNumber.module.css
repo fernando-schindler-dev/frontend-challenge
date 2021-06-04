@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.number {
+  margin-right: 0.75rem;
+  padding: 0.125rem 0.75rem;
+  border-radius: 5px;
+  font-size: 1.625rem;
+  color: #fff;
+}
+
+.informations {
+  color: #424242;
+}
+.informations p:first-child {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.informations p:last-child {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
