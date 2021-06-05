@@ -4,12 +4,13 @@
   flex-direction: column;
   align-items: center;
   background: #fafafa;
-  box-shadow: 2px 2px 7px #dadada;
+  position: relative;
+  z-index: 500;
 }
+
 .menu {
   cursor: pointer;
   min-height: 4.375rem;
-  margin-bottom: 0.5rem;
   padding: 1.3125rem;
   background: #1976d2;
 }
@@ -20,20 +21,50 @@
   border-radius: 3rem;
   background: #fff;
   box-shadow: 0 -7.5px 0 #fff, 0 7.5px 0 #fff;
+  transition: 0.3s;
+}
+.active .menu .line {
+  transform: rotate(-270deg);
+  transition: 0.3s;
+}
+.menuList {
+  min-width: 23.125rem;
+  height: 100%;
+  padding-top: 0.5rem;
+  position: relative;
+  left: -10.4rem;
+  background: #fafafa;
+  box-shadow: 2px 2px 7px #dadada;
+  transition: 0.3s;
+}
+.active .menuList {
+  left: 0rem;
+  transition: 0.3s;
 }
 .menuList a {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   padding: 1rem;
+  text-decoration: none;
 }
+.menuList p {
+  margin-right: 1.5625rem;
+  font-size: 0.875rem;
+  color: #737373;
+}
+
+.menuList a:hover p,
 .menuList a:hover svg,
-.active svg {
+.menuList .active * {
+  color: #1976d2;
   fill: #1976d2;
   stroke: #1976d2;
 }
 .menuList svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  margin-right: 0.6rem;
   fill: #737373;
   stroke: #737373;
   stroke-width: 10;
-  width: 1.125rem;
-  height: 1.125rem;
 }
