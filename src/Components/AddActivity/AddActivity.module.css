@@ -35,6 +35,7 @@
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   opacity: 0 !important;
+  visibility: hidden;
   transition: 0.5s;
   z-index: 2000;
 }
@@ -43,6 +44,7 @@
 }
 .form.active {
   opacity: 1 !important;
+  visibility: visible;
   transition: 0.5s;
 }
 
@@ -55,8 +57,10 @@
   background: rgba(0, 0, 0, 0.2);
   z-index: 1000;
   opacity: 0 !important;
+  visibility: hidden;
   transition: 0.5s;
 }
 .background.active {
   opacity: 1 !important;
+  visibility: visible;
 }
