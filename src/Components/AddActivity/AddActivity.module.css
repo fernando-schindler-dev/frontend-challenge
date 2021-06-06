@@ -1,0 +1,66 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  right: 1.75rem;
+  bottom: 1.75rem;
+  border-radius: 50%;
+  background: #0d47a1;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  transition: 0.2s;
+}
+.container svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.container:hover {
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 19.375rem;
+  height: auto;
+  padding: 1.25rem;
+  border-radius: 10px;
+  position: absolute;
+  right: 1.75rem;
+  bottom: 5.75rem;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0 !important;
+  visibility: hidden;
+  transition: 0.5s;
+  z-index: 2000;
+}
+.form > * + * {
+  margin-top: 1.75rem;
+}
+.form.active {
+  opacity: 1 !important;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  opacity: 0 !important;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.background.active {
+  opacity: 1 !important;
+  visibility: visible;
+}

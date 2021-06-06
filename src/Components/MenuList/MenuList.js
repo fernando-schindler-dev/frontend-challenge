@@ -18,63 +18,84 @@ import { ReactComponent as MovingBox } from '../../Assets/moving-box.svg';
 import { ReactComponent as Gear } from '../../Assets/gear.svg';
 import { ReactComponent as Group } from '../../Assets/group.svg';
 
-const MenuList = () => (
-  <nav className={styles.container}>
-    <button className={styles.menu}>
-      <span className={styles.line}></span>
-    </button>
+const MenuList = () => {
+  const [open, setOpen] = React.useState(false);
+  const result = open ? styles.active : '';
 
-    <div className={styles.menuList}>
-      <a href="#">
-        <Loupe />
-      </a>
-      <a href="#" className={styles.active}>
-        <User />
-      </a>
-      <a href="#">
-        <Calendar />
-      </a>
-      <a href="#">
-        <Tag />
-      </a>
-      <a href="#">
-        <Leaves />
-      </a>
-      <a href="#">
-        <Money />
-      </a>
-      <a href="#">
-        <Box />
-      </a>
-      <a href="#">
-        <Document />
-      </a>
-      <a href="#">
-        <Graphic />
-      </a>
-      <a href="#">
-        <Cash />
-      </a>
-      <a href="#">
-        <Gps />
-      </a>
-      <a href="#">
-        <Grid />
-      </a>
-      <a href="#">
-        <MedicalReport />
-      </a>
-      <a href="#">
-        <MovingBox />
-      </a>
-      <a href="#">
-        <Gear />
-      </a>
-      <a href="#">
-        <Group />
-      </a>
-    </div>
-  </nav>
-);
+  return (
+    <nav className={`${styles.container} ${result}`}>
+      <button className={styles.menu} onClick={() => setOpen(!open)}>
+        <span className={styles.line}></span>
+      </button>
+
+      <div className={styles.menuList}>
+        <a href="#">
+          <p>Pesquisar</p>
+          <Loupe />
+        </a>
+        <a href="#" className={styles.active}>
+          <p>Informações gerais</p>
+          <User />
+        </a>
+        <a href="#">
+          <p>Agenda</p>
+          <Calendar />
+        </a>
+        <a href="#">
+          <p>Vendas</p>
+          <Tag />
+        </a>
+        <a href="#">
+          <p>Serviços</p>
+          <Leaves />
+        </a>
+        <a href="#">
+          <p>Financeiro</p>
+          <Money />
+        </a>
+        <a href="#">
+          <p>Produto</p>
+          <Box />
+        </a>
+        <a href="#">
+          <p>Documentos</p>
+          <Document />
+        </a>
+        <a href="#">
+          <p>Gráficos</p>
+          <Graphic />
+        </a>
+        <a href="#">
+          <p>Contas</p>
+          <Cash />
+        </a>
+        <a href="#">
+          <p>Planejamento</p>
+          <Gps />
+        </a>
+        <a href="#">
+          <p>Administrativo</p>
+          <Grid />
+        </a>
+        <a href="#">
+          <p>Saúde</p>
+          <MedicalReport />
+        </a>
+        <a href="#">
+          <p>Trabalhos</p>
+          <MovingBox />
+        </a>
+        <a href="#">
+          <p>Configurações</p>
+          <Gear />
+        </a>
+        <a href="#">
+          <p>Contas</p>
+          <Group />
+        </a>
+      </div>
+    </nav>
+  );
+};
 
 export default MenuList;

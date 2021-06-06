@@ -10,6 +10,7 @@ import { ReactComponent as CalendarAlert } from '../../Assets/calendar-alert.svg
 import InformationWithNumber from '../../Assistents/InformationWithNumber/InformationWithNumber';
 import ActivitiesTitle from '../../Assistents/ActivitiesTitle/ActivitiesTitle';
 import ActivityItem from '../../Assistents/ActivityItem/ActivityItem';
+import AddActivity from '../AddActivity/AddActivity';
 
 const Activities = () => (
   <section className={`${styles.container} item`}>
@@ -91,6 +92,8 @@ const Activities = () => (
         date="Quarta-feira (19/09/2018) às 13h"
       />
     </div>
+
+    <AddActivity />
   </section>
 );
 
