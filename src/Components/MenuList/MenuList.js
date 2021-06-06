@@ -46,7 +46,7 @@ const MenuList = () => {
           <Tag />
         </a>
         <a href="#">
-          <p>Serviço</p>
+          <p>Serviços</p>
           <Leaves />
         </a>
         <a href="#">
