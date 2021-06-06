@@ -36,3 +36,36 @@ svg {
   font-weight: normal;
   font-size: 1.25rem;
 }
+
+@media (max-width: 85rem) {
+  .content {
+    grid: repeat(3, auto) / repeat(3, 1fr);
+  }
+  .content > *:nth-child(3) {
+    grid-row: 4;
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 75rem) {
+  .content {
+    grid: repeat(3, auto) / repeat(2, 1fr);
+  }
+  .content > *:nth-child(3) {
+    grid-row: 4;
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 55rem) {
+  .content {
+    grid: repeat(3, auto) / 1fr;
+  }
+  .content > *:nth-child(3) {
+    grid-row: 7;
+    grid-column: span 1;
+  }
+  .content > *:nth-child(6) {
+    grid-row: 6;
+  }
+}
