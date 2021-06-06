@@ -1,6 +1,7 @@
 .container {
   grid-row: span 3;
   padding-bottom: 0;
+  position: relative;
 }
 
 .search {
