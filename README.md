@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Minha resolução do teste técnico da TOTVS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é a minha resolução para o desafio do teste técnico da TOTVS (https://github.com/WealthSystems/frontend-challenge), no qual foi requisitado para testar todos os meus conhecimentos, principalmente no front-end, e também verificar os meus conhecimentos em algumas outras áreas.
 
-## Available Scripts
+## Ferramentas utilizadas para o desenvolvimento
 
-In the project directory, you can run:
+- **TRELLO:** Conheci o Trello na faculdade, e sinceramente, ela mudou a forma como organizo minhas atividades de desenvolvimento através do método Kanban, através dessa ferramenta eu tenho um total controle principalmente sobre o que eu devo fazer, o que eu estou fazendo e também o que eu já fiz, através disso permite eu saber como está o meu cronograma e organizar o desenvolvimento dos meus projetos. Devido aos motivos abordados anteriormente que foi feita a utilização dessa ferramenta para este desafio, possibilitando um controle seguro do meu cronograma e das minhas atividades.
 
-### `npm start`
+- **VISUAL STUDIO CODE:** Bom, não sei se quem está lendo irá concordar comigo, mas, para mim este é o melhor editor de código do mundo. Os motivos para essa minha afirmação são várias, sendo elas: é uma ferramenta fácil para ser customizável, possui vários atalhos que ajudam muito na produtividade, e além disso, é claro, não podemos esquecer de suas extensões, o VS Code possui extensão para qualquer necessidade, como por exemplo, ferramentas que aumentam a produtividade. Através desses motivos citados anteriormente que foi realizada a escolha do VS Code como a minha ferramenta para o desenvolvimento da resolução do desafio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **GIT e GITHUB:** Essas ferramentas são indispensáveis para qualquer desenvolvedor, para mim é o requisito fundamental para se tornar um bom desenvolvedor. Não sei se é possível os desenvolvedores sobreviverem sem essas ferramentas de tão úteis que elas se tornam no nosso dia a dia. O Git é o sistema de controle de versão que aprendi durante os meus estudos, devido a isso que foi realizado a escolha dele para o controle de versão do meu projeto, e como no caso do Git, o GitHub foi também a plataforma para hospedagem de cógido-fonte que eu estudei, e devido a isso foi feita a escolha dessa ferramenta também para hospedar os meus códigos.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Frameworks e bibliotecas utilizadas para o desenvolvimento
 
-### `npm test`
+- **REACT:** O React foi o primeiro framework que tive contato após eu aprender o básico do front-end (HTML, CSS e JavaScript), e foi a melhor decisão para mim, pois, melhorou muito em várias formas o meu desenvolvimento front-end. O React facilita muito a forma de trabalhar com o DOM, além disso, esse framework facilita a criação dos componentes e das interfaces, o que consequentemente também melhora o resultado final que será entregue para o usuário. Esses motivos citados anteriormente que me motivaram a desenvolver esse desafio utilizando o React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **CREATE-REACT-APP:** Foi realizado a utilização do create-react-app pelo simples motivo de facilitar a criação de um projeto em React, pois, ele possui um conjunto de ferramentas e também de funcionalidades pré-configuradas do React que facilita a vida do desenvolvedor, fazendo com que o desenvolvedor possa ir direto ao código, sem enrolação em fazer configurações.
 
-### `npm run build`
+- **CSS MODULES:** O principal motivo de eu utilizar o CSS Modules é pelo simples fato de ele evitar conflitos de nomes de classes, que podem afetar componentes que não deviam ser afetados. Além disso, com a utilização dele eu percebo que meus códigos CSS ficam mais légivel, pois, posso usar nomes de classes simples em diversos arquivos CSS, o que sem o CSS Modules poderia gerar vários conflitos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **VICTORY:** Essa é a primeira e única biblioteca de gráficos que tive contato, e devido a isso, e também de eu já possuir uma pequena experiência na utilização dela, que foi realizado a minha escolha de utilizá-la para a elaboração do gráfico solicitado no desafio.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Outros recursos utilizados para o desenvolvimento
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **ESLINT e PRETTIER:** Essa dupla de ferramentas aumentam e muito a produtividade do desenvolvimento, elas além de aumentar a produtividade, criam padronizações para o código. O ESLint irá identificar os cógidos em desacordo com as regras estabelecidas e o Prettier irá formatar de acordo com essas regras. Devido a esses motivos citados que eu realizei a escolha dessas ferramentas para me auxiliarem no desenvolvimento da resolução do desafio.
 
-### `npm run eject`
+- **MAPA INCORPORADO DO GOOGLE MAPS:** Foi utilizado essa recurso de incorporar mapas do Google Maps, pois, não vi necessidade de utilizar uma API para colocar um simples mapa na interface se posso facilmente incorporar um mapa através do Google Maps, o que consequentemente aumentou o meu tempo no que realmente era importante ser desenvolvido.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Instruções para a execução do projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Abra a sua interface de linha de comando (CLI) preferida. Recomendo o uso do Git Bash, mas, outra ferramenta também irá funcionar, pode escolher o que você achar melhor.
+2. Digite na CLI: `git clone https://github.com/fernando-schindler-dev/frontend-challenge.git`
+3. Após a conclusão do download, basta digitar na CLI: `npm install`
+4. Após a instalação de todas as dependências basta digitar na CLI: `npm start`
+5. Pronto, dentro de alguns instantes será gerado um servidor local que será aberto automaticamente no navegador mostrando o projeto desenvolvido.
