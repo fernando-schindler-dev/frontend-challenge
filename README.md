@@ -30,6 +30,7 @@ Este projeto é a minha resolução para o desafio do teste técnico da TOTVS (h
 
 1. Abra a sua interface de linha de comando (CLI) preferida. Recomendo o uso do Git Bash, mas, outra ferramenta também irá funcionar, pode escolher o que você achar melhor.
 2. Digite na CLI: `git clone https://github.com/fernando-schindler-dev/frontend-challenge.git`
-3. Após a conclusão do download, basta digitar na CLI: `npm install`
-4. Após a instalação de todas as dependências basta digitar na CLI: `npm start`
-5. Pronto, dentro de alguns instantes será gerado um servidor local que será aberto automaticamente no navegador mostrando o projeto desenvolvido.
+3. Após a conclusão do download, acesse a pasta do projeto digitando na CLI: `cd frontend-challenge`
+4. Após acessar a pasta, instale as dependências do projeto digitando na CLI: `npm install`
+5. Após a instalação de todas as dependências, inicie o projeto digitando na CLI: `npm start`
+6. Pronto, dentro de alguns instantes será gerado um servidor local que será aberto automaticamente no seu navegador mostrando o projeto desenvolvido.
